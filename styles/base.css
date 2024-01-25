@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@400&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+*{
+  margin : 0;
+  padding : 0;
+}
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.card{
+  border: 2px solid rgba(0,0,0,.3);
+  display: grid;
+  grid-template-columns: 1fr;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;  
+  text-align: center;
+  gap: 1rem;
+  background-color: #1d4d72 ;
+  color: white;
+}
+header img{
+  max-height: 100px;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+nav a{
+  text-decoration: none;
+  color: gainsboro;
+  transition: 0.5s;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0 1rem 0; 
+}
+nav a:hover{
+  color: white;
+  text-shadow: 1px 1px 5px white;
+  transition: 0.5s;
+}
+h2{
+  text-align: center;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid rgba(0,0,0,.3);
+  padding: 1rem;
+}
+.card h3{
+  text-align: center;
+  padding: 1rem;  
+  background-color: #1d4d72;
+  color: white;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  list-style: none;
+  font-weight: bold;
+}
+li{
+  display: flex;
+  gap: 1rem;
+}
+footer{
+  text-align: center;
+  padding: 1rem;
+  background-color: #1d4d72;
+  color: white;
+}
+footer p{
+  margin-bottom: 0.5rem;
+}
+.information *{
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.information{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  
+}
