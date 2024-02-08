@@ -2,7 +2,13 @@
 
   nav {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;    
+    align-items: start;
+    justify-content: space-around;
+  }
+  nav div {
+    display: flex;
+    flex-direction: column;
   }
   nav a{
     flex: 1 1 100%;
