@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="author" content="Lucas Nunes">
-  <meta name="description" content="CSE 121B Final Project">
+  <meta name="description" content="CSE 121B Final Project, a game where you become the master of your own adventure and unlock the mysteries that await., powered by Gemini AI">
   <title>Final Project</title>
   <link rel="stylesheet" href="./styles/final-project.css">
   <script src="./scripts/final-project.js" type="module" defer></script>
@@ -19,7 +19,7 @@
   </header>
   <main>
     <section class="intro">
-      <p><strong>Your Journey Begins Now</strong></p>
+      <h3>Your Journey Begins Now</h3>
       <p>Prepare to embark on an unforgettable journey where every decision has consequences. Are you ready to write your own destiny and unlock the mysteries that await? The adventure starts here.</p>
       <p>Choose your path wisely, and let the tale unfold.</p>      
     </section>
@@ -32,7 +32,7 @@
           <li><strong>Chat with the Storyteller:</strong> After making your selection, ChatGPT will weave together the next part of the story based on your choice. Dive deep into a world of imagination and exploration.</li>
           <li><strong>Discover New Paths:</strong> Each decision leads to new opportunities and challenges. Explore multiple storylines and uncover the secrets hidden within <strong>Your Game Name</strong>.</li>
       </ol>
-      <button>Start</button>
+      <button id="start-button">Start</button>
   </div>
   <section class="story">
 
@@ -41,16 +41,20 @@
 
     <section class="options">
       <h2>Options</h2>
-      <button>Path 1</button>
-      <button>Path 2</button>
-      <button>Path 3</button>
+      <button id="path-1">Path 1</button>
+      <button id="path-2">Path 2</button>
+      <button id="path-3">Path 3</button>
       
     </section>
+    <button id="seeHistoric">See Historic</button>
     <div class="chat-container" id="chat-container">
       <div class="chat-box" id="chat-box"></div>
       <input type="text" id="user-input" placeholder="Type your message...">
       <button id="send-button">Send</button>
   </div>
   </main>
+  <footer>
+    <p>&copy; 2023 CSE 121b. All rights reserved. Powered by Gemini AI.</p>
+  </footer>
 </body>
 </html>

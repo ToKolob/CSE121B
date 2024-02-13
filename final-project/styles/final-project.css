@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 *{
   padding: 0;
   margin: 0;
@@ -8,6 +10,11 @@ body{
   color: aliceblue;
   max-width: 700px;
   margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6{
+  text-align: center;
+  margin: 10px;
+  font-family: 'Satisfy', cursive;
 }
 .model{
   padding: 1rem;
@@ -37,6 +44,10 @@ body{
 .model button:hover{
   background-color: aliceblue;
   color: #171717;
+}
+.intro{
+  padding: 10px;
+  margin: 10px;
 }
 .story{
   padding: 10px;
@@ -68,5 +79,53 @@ body{
   background-color: aliceblue;
   color: #171717;
   transition: .5s;
+}
+.options button:disabled{
+  cursor: not-allowed;
+  border: 1px solid rgb(82, 82, 82);
+  background-color: #171717;
+  color: rgb(82, 82, 82);
   
+}
+pre {
+  white-space: pre-wrap; /* quebra de linha */
+  overflow-wrap: break-word; /* quebra de palavra */
+  padding: 10px; /* espaçamento interno */
+}
+.chat-container{
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  background-color: black;
+}
+.hide{
+  display: none;
+}
+#send-button, #seeHistoric{
+  margin: 20px;
+  padding: 5px;
+  background-color: #171717;
+  color: aliceblue;
+  border: 1px solid aliceblue;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: .5s;
+}
+#send-button:hover, #seeHistoric:hover{
+  background-color: aliceblue;
+  color: #171717;
+  transition: .5s;
+}
+#user-input{
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+}
+footer{
+  text-align: center;
+  margin: 10px;
+  font-size: .8rem;
+  padding: 10px;
 }

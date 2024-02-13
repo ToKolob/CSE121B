@@ -1,6 +1,7 @@
 const startModelGame = document.querySelector('.model')
+const startButton = document.querySelector('#start-button')
 
-startModelGame.addEventListener('click', () => {
+startButton.addEventListener('click', () => {
   startModelGame.style.display = 'none'
 })
-export default startModelGame
+export {startModelGame, startButton}
